@@ -53,8 +53,8 @@ Expected output:
 ### 3. Verify Connectivity
 ```bash
 # From ansible container
-docker exec -it clab-hamk-verkonhallinta-golden-ansible bash
-ansible all -m ping
+docker exec -it clab-hamk-verkonhallinta-golden-ansible 
+bash ansible all -m ping
 
 # Expected output:
 # client1 | SUCCESS => { "ping": "pong" }
